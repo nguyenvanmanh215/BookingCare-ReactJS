@@ -1,0 +1,100 @@
+@import '../styles/common.scss';
+
+.login-background {
+  height: 100vh;
+  background: rgb(227, 248, 64);
+  background: linear-gradient(
+    135deg,
+    rgb(4, 169, 239) 0%,
+    rgb(87, 236, 107) 100%
+  );
+
+  .login-container {
+    margin-top: 30px;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 11px;
+    background-color: white;
+
+    .login-content {
+      padding: 10px;
+      margin-top: 20px;
+
+      .text-login {
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        padding: top 13px;
+      }
+      .login-input {
+        margin: 7px 0;
+        .custom-input-password {
+          position: relative;
+
+          i {
+            position: absolute;
+            right: 6px;
+            top: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+      .btn-login {
+        width: 100%;
+        margin: 10px 0;
+        height: 32px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        background: rgb(188, 232, 232);
+        background: linear-gradient(
+          135deg,
+          rgb(169, 199, 239) 0%,
+          rgb(233, 188, 244) 100%
+        );
+        font-size: 16px;
+        color: white;
+      }
+      .forgot-password {
+        font-size: 12px;
+      }
+      .social-login {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+        .google {
+          font-size: 30px;
+          background-color: red;
+          border-radius: 50%;
+          width: 45px;
+          height: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          margin-right: 12px;
+        }
+        .facebook {
+          font-size: 30px;
+          background-color: rgb(62, 138, 219);
+          border-radius: 50%;
+          width: 45px;
+          height: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+//phan mac dinh
