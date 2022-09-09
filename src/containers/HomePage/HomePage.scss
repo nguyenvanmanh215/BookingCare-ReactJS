@@ -52,6 +52,9 @@
   .section-body {
     .section-customize {
       text-align: center;
+      &:hover {
+        color: #45c3d2;
+      }
       .bg-image {
         height: 150px;
         width: 278px;
@@ -62,10 +65,10 @@
         background-color: #eee;
 
         &.section-specialty {
-          background-image: url('../../assets/specialty//120331-co-xuong-khop.jpg');
+          // background-image: url('../../assets/specialty//120331-co-xuong-khop.jpg');
         }
         &.section-medical-facility {
-          background-image: url('../../assets/medical-facility/090854-bv-an-viet1.jpg');
+          // background-image: url('../../assets/medical-facility/090854-bv-an-viet1.jpg');
         }
         &.section-outstanding-doctor {
           width: 120px;
